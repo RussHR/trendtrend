@@ -80,6 +80,12 @@ body {
 .loading-image {
   display: none; }
 
+.animation-image {
+  max-height: 300px;
+  max-width: 300px;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s; }
+
 .app-title {
   margin-bottom: 1em;
   font-size: 2.5em; }
